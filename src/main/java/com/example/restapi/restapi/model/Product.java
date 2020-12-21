@@ -17,6 +17,24 @@ public class Product {
     private String name;
     private String description;
     private String type;
+    private String category;
+    private Double price;
+
+    public String getCategory() {
+        return category;
+    }
+
+    public void setCategory(String category) {
+        this.category = category;
+    }
+
+    public Double getPrice() {
+        return price;
+    }
+
+    public void setPrice(Double price) {
+        this.price = price;
+    }
 
     public String getId() {
         return id;
