@@ -23,13 +23,13 @@ public class RestapiApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        Product product1 = new Product();
+/*        Product product1 = new Product();
         product1.setName("Simple Product");
         product1.setDescription("this is a tester product");
         product1.setCategory("SPECIAL");
         product1.setType("CUSTOM");
         product1.setPrice(295.0);
 
-        productRepository.save(product1);
+        productRepository.save(product1);*/
     }
 }
