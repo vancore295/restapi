@@ -15,7 +15,7 @@ public class PrductAdvice {
     @ResponseStatus(HttpStatus.BAD_REQUEST)
     public MessageDTO processNullPointerException(NullPointerException exception) {
         MessageDTO message = new MessageDTO();
-        message.setMessage("Errors found in request, try again later.");
+        message.setMessage(exception.getMessage());
         message.setType("ERROR");
 
         return message;
